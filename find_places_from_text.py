@@ -6,7 +6,7 @@ Created on Sat Oct  3 15:45:53 2020
 """
 
 def find_places_from_text(place_name, api_key, language):
-    inputtyoe = 'textquery'
+    inputtype = 'textquery'
     url = ('https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
             '?key=%s'
             '&inputtype=%s'
