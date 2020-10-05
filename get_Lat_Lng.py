@@ -20,4 +20,4 @@ def getLatLng(addr, api_key, language):
         lng = results[0]['geometry']['location']['lng']
         return (lat,lng)
     except:
-        return np.nan
+        return (np.nan,np.nan)
